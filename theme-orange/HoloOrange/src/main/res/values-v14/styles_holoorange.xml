@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- File created by the Android Action Bar Style Generator
+
+     Copyright (C) 2011 The Android Open Source Project
+     Copyright (C) 2012 readyState Software Ltd
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+
+    <style name="Holo.Theme.Light.Orange" parent="Holo.Theme.Light">
+        <item name="android:actionBarItemBackground">@drawable/selectable_background_holoorange</item>
+        <item name="android:popupMenuStyle">@style/PopupMenu.Holoorange</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Holoorange</item>
+        <item name="android:actionBarTabStyle">@style/ActionBarTabStyle.Holoorange</item>
+        <item name="android:actionDropDownStyle">@style/DropDownNav.Holoorange</item>
+        <item name="android:actionBarStyle">@style/ActionBar.Solid.Holoorange</item>
+        <item name="android:actionModeBackground">@drawable/cab_background_top_holoorange</item>
+        <item name="android:actionModeSplitBackground">@drawable/cab_background_bottom_holoorange</item>
+        <item name="android:actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Holoorange</item>
+
+
+        <item name="android:editTextBackground">@drawable/edit_text_holo_light</item>
+
+        <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextViewHoloOrange</item>
+
+        <item name="android:listChoiceIndicatorMultiple">@drawable/btn_check_holo_light</item>
+
+        <item name="android:listChoiceIndicatorSingle">@drawable/btn_radio_holo_light</item>
+
+        <item name="android:buttonStyle">@style/ButtonHoloOrange</item>
+
+        <item name="android:imageButtonStyle">@style/ImageButtonHoloOrange</item>
+
+        <item name="android:dropDownSpinnerStyle">@style/SpinnerHoloOrange</item>
+
+        <item name="android:tabWidgetStyle">@style/TabWidgetHoloOrange</item>
+
+        <item name="android:progressBarStyleHorizontal">@style/ProgressBarHoloOrange</item>
+
+        <item name="android:seekBarStyle">@style/SeekBarHoloOrange</item>
+
+        <item name="android:ratingBarStyle">@style/RatingBarHoloOrange</item>
+
+        <item name="android:ratingBarStyleIndicator">@style/RatingBarBigHoloOrange</item>
+
+        <item name="android:ratingBarStyleSmall">@style/RatingBarSmallHoloOrange</item>
+
+        <item name="android:buttonStyleToggle">@style/ToggleHoloOrange</item>
+
+        <item name="android:listChoiceBackgroundIndicator">@drawable/list_selector_holo_light</item>
+
+        <item name="android:activatedBackgroundIndicator">@drawable/activated_background_holo_light</item>
+
+        <item name="android:fastScrollThumbDrawable">@drawable/fastscroll_thumb_holo</item>
+        
+    </style>
+
+    <style name="ActionBar.Solid.Holoorange" parent="@style/Widget.AppCompat.Light.ActionBar.Solid">
+        <item name="android:background">@drawable/ab_solid_holoorange</item>
+        <item name="android:backgroundStacked">@drawable/ab_stacked_solid_holoorange</item>
+        <item name="android:backgroundSplit">@drawable/ab_bottom_solid_holoorange</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Holoorange</item>
+    </style>
+
+    <style name="ActionBar.Transparent.Holoorange" parent="@style/Widget.AppCompat.Light.ActionBar">
+        <item name="android:background">@drawable/ab_transparent_holoorange</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Holoorange</item>
+    </style>
+    
+    <!-- this style is only referenced in a Light.DarkActionBar based theme -->
+    <style name="Theme.Holoorange.Widget" parent="@style/Theme.AppCompat">
+        <item name="android:popupMenuStyle">@style/PopupMenu.Holoorange</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Holoorange</item>
+    </style>
+
+</resources>

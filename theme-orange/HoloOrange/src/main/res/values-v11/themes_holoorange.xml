@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="Holo.Theme.Light.Orange" parent="Holo.Theme.Light">
+    <item name="actionBarItemBackground">@drawable/selectable_background_holoorange</item>
+    <item name="popupMenuStyle">@style/PopupMenu.Holoorange</item>
+    <item name="dropDownListViewStyle">@style/DropDownListView.Holoorange</item>
+    <item name="actionBarTabStyle">@style/ActionBarTabStyle.Holoorange</item>
+    <item name="actionDropDownStyle">@style/DropDownNav.Holoorange</item>
+    <item name="actionBarStyle">@style/ActionBar.Solid.Holoorange</item>
+    <item name="actionModeBackground">@drawable/cab_background_top_holoorange</item>
+    <item name="actionModeSplitBackground">@drawable/cab_background_bottom_holoorange</item>
+    <item name="actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Holoorange</item>
+
+    <item name="android:editTextBackground">@drawable/edit_text_holo_light</item>
+
+    <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextViewHoloOrange</item>
+
+    <item name="android:listChoiceIndicatorMultiple">@drawable/btn_check_holo_light</item>
+
+    <item name="android:listChoiceIndicatorSingle">@drawable/btn_radio_holo_light</item>
+
+    <item name="android:buttonStyle">@style/ButtonHoloOrange</item>
+
+    <item name="android:imageButtonStyle">@style/ImageButtonHoloOrange</item>
+
+    <item name="android:dropDownSpinnerStyle">@style/SpinnerHoloOrange</item>
+
+    <item name="android:tabWidgetStyle">@style/TabWidgetHoloOrange</item>
+
+    <item name="android:progressBarStyleHorizontal">@style/ProgressBarHoloOrange</item>
+
+    <item name="android:seekBarStyle">@style/SeekBarHoloOrange</item>
+
+    <item name="android:ratingBarStyle">@style/RatingBarHoloOrange</item>
+
+    <item name="android:ratingBarStyleIndicator">@style/RatingBarBigHoloOrange</item>
+
+    <item name="android:ratingBarStyleSmall">@style/RatingBarSmallHoloOrange</item>
+
+    <item name="android:buttonStyleToggle">@style/ToggleHoloOrange</item>
+
+    <item name="android:listChoiceBackgroundIndicator">@drawable/list_selector_holo_light</item>
+
+    <item name="android:activatedBackgroundIndicator">@drawable/activated_background_holo_light</item>
+
+    <item name="android:fastScrollThumbDrawable">@drawable/fastscroll_thumb_holo</item>
+
+  </style>
+
+</resources>

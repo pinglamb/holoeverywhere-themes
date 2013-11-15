@@ -1,0 +1,47 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:0.6.+'
+    }
+}
+apply plugin: 'android-library'
+
+repositories {
+    maven { url "https://raw.github.com/Prototik/HoloEverywhere/repo" }
+    mavenCentral()
+}
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion "19.0.0"
+
+    defaultConfig {
+        minSdkVersion 7
+        targetSdkVersion 19
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:18.0.+@jar'
+
+    // HoloEverywhere
+    compile 'org.holoeverywhere:library:2.1.+@aar'
+}
+
+apply plugin: 'maven'
+
+group = 'org.holoeverywhere'
+version = '0.2.1'
+
+uploadArchives {
+    repositories {
+        mavenDeployer {
+            repository(url: "file://$buildDir/repo")
+            pom {
+                artifactId = 'theme-orange'
+            }
+        }
+    }
+}
